@@ -57,7 +57,7 @@ Suba o PostgreSQL com pgVector:
 docker compose up -d
 ```
 
-O arquivo `docker/init.sql` cria a extensão `vector` quando o banco é inicializado.
+O serviço `bootstrap_vector_ext` do `docker-compose.yml` cria a extensão `vector` após o PostgreSQL ficar saudável.
 
 ## Ingestão do PDF
 
