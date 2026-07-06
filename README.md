@@ -45,7 +45,7 @@ POSTGRES_CONNECTION=postgresql+psycopg://postgres:postgres@localhost:5432/postgr
 PGVECTOR_COLLECTION=documents
 GEMINI_EMBEDDING_MODEL=models/gemini-embedding-001
 GEMINI_CHAT_MODEL=gemini-2.5-flash-lite
-EMBEDDING_BATCH_SIZE=90
+EMBEDDING_BATCH_SIZE=10
 EMBEDDING_BATCH_SLEEP_SECONDS=65
 ```
 
